@@ -1,16 +1,17 @@
+import React from 'react';
 import { FaCode} from "react-icons/fa";
-import avatar from '../img/AvatarAndIcons.svg';
+import avatar from '../img/Home2.svg';
+import './Home.css';
 
-import './Home.css'
 function Home() {
     return ( 
-        <div className="container">
+        <div className="container-home">
             <div className="text-content">
-                <h1><FaCode/>Progamando com React</h1>
-                <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <h1><FaCode/>Aprendendo <span>React</span></h1>
+                <p> Aprender React pode ser desafiador, mas gratificante. Compreender os conceitos básicos, familiarizar-se com a estrutura do projeto, criar e manipular componentes, lidar com eventos e gerenciar o estado pode ser complicado. No entanto, à medida que se ganha prática e dedicação, a sensação de dominar o React é verdadeiramente gratificante.</p>
             </div>
             <div className="avatar">
-                <img src={avatar}/>
+                <img src={avatar} alt="Avatar"/>
             </div>
         </div>
      );
