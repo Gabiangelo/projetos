@@ -19,10 +19,11 @@ export default function App() {
         <SwiperSlide><Cards
         key={item.id}
         name={item.name}
+        to={item.to}
        /></SwiperSlide>
       ))
   return (
-    <div className="container">
+    <div className="container-carousel">
       <Swiper
         slidesPerView={4}
         pagination={{

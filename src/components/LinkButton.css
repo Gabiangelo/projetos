@@ -1,0 +1,14 @@
+.question-btn {
+  width: 150px;
+  height: 40px;
+  border: 1px solid ;
+  border-radius: 44px;
+  color: var(--textColor2);
+  -webkit-text-stroke-color: var(--bgColor);
+  -webkit-text-stroke-width: 1px;
+  background-color: var(--btnlink);
+  margin-top: 20px;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 18px;
+  box-shadow: var(--btnlinksh) 7px 7px;
+}

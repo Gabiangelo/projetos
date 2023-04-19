@@ -2,9 +2,9 @@
 .container-page {
     max-width: 1240px;
     margin: auto;
-    margin-top:50px;
     padding: 30px;
-    margin-bottom: 100px;
+    margin-top: 30px;
+    margin-bottom: 115px;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between; 
@@ -56,4 +56,9 @@
     margin-top: 20px;
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 18px;
+}
+
+h1 svg {
+    font-size: 30px;
+    margin-right: 10px;
 }

@@ -3,10 +3,11 @@ import './App.css';
 
 import Navbar from './components/Navbar.js';
 import Teste from './components/Carousel.js';
-import Home from './components/Home';
+import Home from './Pages/Home';
 import Divisor from './components/Divisor.js';
 import Page_Exe1 from './exercices/exe1/Page_Exe1';
 
+import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
       <Home/>
       <Divisor name = "work"/>
       <Teste/>
-      <Page_Exe1/>
+      <Outlet/>
+      <Divisor name = "contact"/>
+
     </>
   )
 }
