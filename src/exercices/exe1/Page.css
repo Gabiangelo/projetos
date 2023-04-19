@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&family=Rubik+Mono+One&display=swap');
+.container-page {
+    max-width: 1240px;
+    margin: auto;
+    margin-top:50px;
+    padding: 30px;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.container-solution {
+    width: 500px;
+    height: 400px;
+    background-color: #142246;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+
+.container-question {
+    width: 615px;
+    font-family: 'Rubik Mono One', sans-serif;
+    padding: 30px;
+}
+
+.container-question h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #FDCA40;
+    margin-bottom: 30px;
+}
+
+.container-question p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: var(--textColor2);
+    margin-bottom: 30px;
+}
+
+.solution-btn {
+    width: 150px;
+    height: 40px;
+    border: 2px solid ;
+    border-radius: 44px;
+    color: var(--textColor2);
+    -webkit-text-stroke-color: var(--bgColor);
+    -webkit-text-stroke-width: 1px;
+    background-color: #DF2935;
+    margin-top: 20px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 18px;
+}

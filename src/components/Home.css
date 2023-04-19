@@ -12,7 +12,7 @@
 }
 
 .text-content{
-    color: #ffffff;
+    color: var(--textColor2);
     max-width: 600px;
 }
 
@@ -24,11 +24,10 @@
 }
 
 .text-content h1 span{
-    color: #98C379;
+    color: var(--homeh1);
 }
 
 .text-content p{
-    color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     text-align: center;

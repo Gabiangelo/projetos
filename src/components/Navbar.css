@@ -5,12 +5,6 @@
     box-sizing: border-box;
 }
 
-:root{
-    --textColor:#ABB2BF;
-    --textColor2:#FFFFFF;
-    --caracter:#C778DD;
-}
-
 header {
     width: 1240px;
     display: flex;
@@ -19,8 +13,7 @@ header {
     height: 67px;
     padding: 0 2rem;
     margin: auto;
-    background-color: var(--bgColor);
-    color: var(--textColor);
+    color: var(--textNav);
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
@@ -31,16 +24,16 @@ header {
 
 h3 {
    color: #282C33;
-   background-color: var(--caracter);
+   background-color: var(--purple);
    padding: 0px 5px;
 }
 
 span{
-    color:var(--caracter);
+    color:var(--purple);
 }
+
 a{
     margin: 0 2rem;
-    color: var(--textColor);
     text-decoration: none;
 }
 

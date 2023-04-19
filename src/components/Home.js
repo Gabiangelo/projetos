@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaCode} from "react-icons/fa";
-import avatar from '../img/Home2.svg';
+import avatar from '../img/home2.svg';
 import './Home.css';
 
 function Home() {

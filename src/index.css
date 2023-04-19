@@ -1,6 +1,17 @@
+:root{
+  --bgColor:#1A3065;
+  --textNav:#E6E8E6;
+  --textColor2:#FFFFFF;
+  --homeh1:#df2935;
+  --purple:#3772ff;
+  --btnlink: #3772ff;
+  --btnlinksh:#df2935;
+  --badgeColor: #3772ff;
+}
+
 body {
   margin: 0;
-  background-color: #161616;
+  background:var(--bgColor);
   box-sizing: border-box;
 }
 
