@@ -19,7 +19,7 @@ export default function App() {
         <SwiperSlide><Cards
         key={item.id}
         name={item.name}
-        to={item.to}
+        to={item.path}
        /></SwiperSlide>
       ))
   return (

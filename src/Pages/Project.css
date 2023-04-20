@@ -1,0 +1,31 @@
+.container-about {
+    max-width: 1240px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.container-about h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 30px;
+    color: var(--textColor2);
+}
+
+.container-about h3 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 20px;
+    background-color: var(--bgColor);
+    color: var(--textColor2);
+}
+
+.container-about p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    color: var(--textColor2);
+    max-width: 600px;
+    padding: 20px;
+}
+.container-about span {
+    color: var(--homeh1);
+    margin-right: 10px;
+}

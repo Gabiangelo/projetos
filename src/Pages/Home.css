@@ -5,7 +5,6 @@
     margin: auto;
     margin-top:50px;
     margin-bottom: 100px;
-    padding: 20px;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between; 
@@ -15,26 +14,22 @@
 .text-content{
     color: var(--textColor2);
     max-width: 600px;
+    padding: 20px;
+}
+
+.text-content h1 svg{
+    font-size: 4rem;
 }
 
 .text-content h1{
     font-family: 'Rubik Mono One', sans-serif;
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
     margin-bottom: 50px;
 }
 
-.text-content h1 span{
-    color: var(--homeh1);
-}
-
-.text-content p{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    text-align: center;
-}
-
 .avatar {
+    padding: 20px;
     margin-left: 30px;
 }
 

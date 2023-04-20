@@ -5,7 +5,8 @@ import Navbar from './components/Navbar.js';
 import Teste from './components/Carousel.js';
 import Home from './Pages/Home';
 import Divisor from './components/Divisor.js';
-import Page_Exe1 from './exercices/exe1/Page_Exe1';
+import Footer from './components/Footer';
+import Project from './Pages/Project';
 
 import { Outlet } from 'react-router-dom';
 
@@ -14,11 +15,12 @@ function App() {
     <>
       <Navbar/>
       <Home/>
-      <Divisor name = "work"/>
+      <Divisor name = "about"/>
+      <Project/>
+      <Divisor name = "exercise"/>
       <Teste/>
       <Outlet/>
-      <Divisor name = "contact"/>
-
+      <Footer/>
     </>
   )
 }

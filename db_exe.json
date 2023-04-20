@@ -1,0 +1,54 @@
+{
+    "data" :[
+        {
+          "id": 1,
+          "name": "1",
+          "imageurl": "./img/img1.PNG",
+          "question": "Qual é a má prática no código abaixo e como melhorar este trecho de código?",
+          "path": "/"
+        },
+        {
+          "id": 2,
+          "name": "2",
+          "imageurl": "./img/img2.PNG",
+          "question": "Por que o método setState não irá funcionar? O que é necessário para que funcione?",
+          "path": "/exe2"
+        },
+        {
+          "id": 3,
+          "name": "3",
+          "imageurl": "./img/img3.PNG",
+          "question": "Qual a má prática no código abaixo e o que valor do state “name” irá chegar no callback? O novo ou o antigo? Como deveria estar escrito este trecho de código?",
+          "path": "/exe3"
+        },
+        {
+          "id": 4,
+          "name": "4",
+          "imageurl": "./img/img4.PNG",
+          "question": "O que está sendo feito errado no trecho de código abaixo e por que não deve ser feito?",
+          "path": "/exe4"
+       },
+          
+        {
+          "id": 5,
+          "name": "5",
+          "imageurl": "./img/img5.PNG",
+          "question": "Corrija o trecho de código abaixo para que o state “count” seja atualizado quando o componente montar:",
+          "path": "/exe5"
+        },
+        {
+          "id": 6,
+          "name": "6",
+          "imageurl": "./img/img6.PNG",
+          "question": "No trecho de código abaixo, a função asyncFunc é assincrona. O que falta para que este código funcione corretamente?",
+          "path": "/exe6"
+        },
+        {
+          "id": 7,
+          "name": "7",
+          "imageurl": "./img/img7.PNG",
+          "question":"Esse componente abaixo gera um erro no console ao renderizar, corrija a implementação para que não gere mais erro:",
+          "path": "/exe7"
+         }
+      ]
+}
