@@ -1,27 +1,29 @@
+import React from 'react';
+import { useEffect,useState } from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-// import required modules
 import {Navigation } from "swiper";
+import { SwiperButtons } from './SwiperButton.js';
 
 import Cards from "./Card.js";
-import {data} from "../data/exe_data.js";
-
-import { SwiperButtons } from './SwiperButton.js';
 
 import './Carousel.css'
 
 export default function App() {
-    const card = data.map(item => (
-        <SwiperSlide><Cards
-        key={item.id}
-        name={item.name}
-        to={item.path}
-       /></SwiperSlide>
-      ))
+
+  const [result, setResult] = useState([]);
+
+  fetch('http://localhost:5000/data', {
+    method: "GET",
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  }).then((resp) => resp.json())
+    .then((data) => { setResult(data)})
+    .catch((err)=> console.log(err))
+
   return (
     <div className="container-carousel">
       <Swiper
@@ -31,7 +33,17 @@ export default function App() {
         }}
         modules={[Navigation]}
       >
-        {card}
+          {result.map((item) => (
+              <SwiperSlide>
+                <Cards
+                  id={item.id}
+                  name={item.name}
+                  imageurl={item.imageurl}
+                  question={item.question}
+                  path={item.path}
+                />
+                </SwiperSlide>
+          ))}
         <SwiperButtons />
       </Swiper>
     </div>

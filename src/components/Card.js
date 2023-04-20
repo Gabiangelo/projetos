@@ -5,7 +5,13 @@ function Cards(props) {
     return (
         <div className='Card'>
             <h1>{props.name}.</h1>
-            <LinkButton to={props.to}/>
+            <LinkButton 
+                id={props.id}
+                name={props.name}
+                imageurl={props.imageurl}
+                question={props.question}
+                path={props.path}
+            />
         </div>
     );
 }

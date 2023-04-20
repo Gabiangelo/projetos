@@ -5,7 +5,7 @@ import App from './App';
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import Exe1 from './exercices/exe1/Page_Exe1';
+import Page_Exe from './exercices/Page_Exe';
 
 const router = createBrowserRouter([
   {
@@ -14,8 +14,32 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Exe1/>
-      },   
+        element: <Page_Exe/>
+      },
+      {
+        path: "/exe2",
+        element: <Page_Exe/>
+      }, 
+      {
+        path: "/exe3",
+        element: <Page_Exe/>
+      }, 
+      {
+        path: "/exe4",
+        element: <Page_Exe/>
+      }, 
+      {
+        path: "/exe5",
+        element: <Page_Exe/>
+      }, 
+      {
+        path: "/exe6",
+        element: <Page_Exe/>
+      }, 
+      {
+        path: "/exe7",
+        element: <Page_Exe/>
+      }, 
     ]
   }
 ])

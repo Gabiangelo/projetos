@@ -15,7 +15,7 @@ header {
     margin: auto;
     color: var(--textNav);
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 21px;
     letter-spacing: 3px;
     font-family:'Roboto';
@@ -23,13 +23,11 @@ header {
 }
 
 h3 {
-   color: #282C33;
-   background-color: var(--purple);
-   padding: 0px 5px;
+   color: #DF2935;
 }
 
 span{
-    color:var(--purple);
+    color: #DF2935;
 }
 
 a{

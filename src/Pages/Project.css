@@ -2,6 +2,8 @@
     max-width: 1240px;
     margin: auto;
     margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .container-about h1 {

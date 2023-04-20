@@ -10,7 +10,7 @@ function Home() {
         words: ['</> APRENDENDO REACT','</> PROGRAMANDO COM REACT'],
         typeSpeed: 120,
         deleteSpeed: 80,
-        loop: 1,
+        loop: {},
         onLoopDone: () => console.log(`loop completed after 3 runs.`)
     });
 
