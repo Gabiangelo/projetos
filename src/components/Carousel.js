@@ -1,5 +1,5 @@
 import React from 'react';
-import { useEffect,useState } from 'react';
+import {useState } from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -38,8 +38,6 @@ export default function App() {
                 <Cards
                   id={item.id}
                   name={item.name}
-                  imageurl={item.imageurl}
-                  question={item.question}
                   path={item.path}
                 />
                 </SwiperSlide>

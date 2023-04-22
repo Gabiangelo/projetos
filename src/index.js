@@ -14,31 +14,31 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Page_Exe/>
+        element: <Page_Exe id={0}/>
       },
       {
         path: "/exe2",
-        element: <Page_Exe/>
+        element: <Page_Exe id={1}/>
       }, 
       {
         path: "/exe3",
-        element: <Page_Exe/>
+        element: <Page_Exe id={2}/>
       }, 
       {
         path: "/exe4",
-        element: <Page_Exe/>
+        element: <Page_Exe id={3}/>
       }, 
       {
         path: "/exe5",
-        element: <Page_Exe/>
+        element: <Page_Exe id={4}/>
       }, 
       {
         path: "/exe6",
-        element: <Page_Exe/>
+        element: <Page_Exe id={5}/>
       }, 
       {
         path: "/exe7",
-        element: <Page_Exe/>
+        element: <Page_Exe id={6}/>
       }, 
     ]
   }
