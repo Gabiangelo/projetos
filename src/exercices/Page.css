@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&family=Rubik+Mono+One&display=swap');
 .container-page {
     max-width: 1240px;
+    max-height: 700px;
     margin: auto;
     padding: 30px;
     margin-top: 30px;
@@ -12,8 +13,8 @@
 }
 
 .container-solution {
-    width: 500px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     background-color: #142246;
     border: 3px solid #ffffff;
     border-radius: 20px;
@@ -38,15 +39,18 @@
     margin-top: 20px;
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 18px;
+    box-sizing: border-box;
 }
 
 
 
 
 .container-question {
-    width: 615px;
+    width: 600px;
+    height: 450px;
     font-family: 'Rubik Mono One', sans-serif;
     padding: 30px;
+    box-sizing: border-box;
 }
 
 .container-question h1 {
@@ -62,7 +66,13 @@
     font-size: 20px;
     letter-spacing: 3px;
     color: var(--textColor2);
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.container-question img{
+    border-radius: 20px;
+    width: 90%;
+    height: 80%;
 }
 
 

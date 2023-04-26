@@ -14,26 +14,23 @@ import './Page.css';
 
 function Page_Exe(props) {
   const exes = [<Exe1 />, <Exe2 />, <Exe3 />, <Exe4 />, <Exe5 />, <Exe6 />, <Exe7 />];
+  
   const [result, setResult] = useState([]);
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch(`http://localhost:5000/data/${props.id}`, {
-          method: "GET",
-          headers: {
-            'Content-Type': 'application/json'
-          }
-        });
-        const data = await response.json();
-        setResult(data);
-      } catch (err) {
-        console.log(err);
-      }
-    }
-
-    fetchData();
-  }, [props.id]); 
+    fetch(`http://localhost:5000/data/${props.id}`, {
+      method: "GET",
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
+      .then((resp) => resp.json())
+      .then((data) => {
+        console.log(data)
+        setResult(data)
+      })
+      .catch((err) => console.log(err))
+  }, [props.id])
 
   return (
     <div className="container-page">
@@ -44,8 +41,7 @@ function Page_Exe(props) {
           Exercício {result.name}
         </h1>
         <p>{result.question}</p>
-        <img src={require(`${result.imageurl}`).default} alt='imagem exe' /> 
-
+        <img src={result.url}></img>
       </div>
     </div>
   );

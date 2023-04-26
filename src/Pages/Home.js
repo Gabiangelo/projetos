@@ -1,8 +1,6 @@
 import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
-import avatar from '../img/home4.svg';
-
 import './Home.css';
 
 function Home() {
@@ -23,7 +21,7 @@ function Home() {
                 </h1>
                 </div>
             <div className="avatar">
-                <img src={avatar} alt="Avatar"/>
+                <img src="img/home.svg" alt="Avatar"/>
             </div>
         </div>
      );

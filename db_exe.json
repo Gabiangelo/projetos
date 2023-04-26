@@ -3,28 +3,28 @@
         {
           "id": 0,
           "name": "1",
-          "imageurl": "../img/img1.PNG",
+          "url": "img/img_exe1.png",
           "question": "Qual é a má prática no código abaixo e como melhorar este trecho de código?",
           "path": "/"
         },
         {
           "id": 1,
           "name": "2",
-          "imageurl": "../img/img2.PNG",
+          "url": "img/img_exe2.png",
           "question": "Por que o método setState não irá funcionar? O que é necessário para que funcione?",
           "path": "/exe2"
         },
         {
           "id": 2,
           "name": " 3",
-          "imageurl": "../img/img3.PNG",
+          "url": "img/img_exe3.png",
           "question": "Qual a má prática no código abaixo e o que valor do state “name” irá chegar no callback? O novo ou o antigo? Como deveria estar escrito este trecho de código?",
           "path": "/exe3"
         },
         {
           "id": 3,
           "name": " 4",
-          "imageurl": "../img/img4.PNG",
+          "url": "img/img_exe4.png",
           "question": "O que está sendo feito errado no trecho de código abaixo e por que não deve ser feito?",
           "path": "/exe4"
        },
@@ -32,21 +32,21 @@
         {
           "id": 4,
           "name": " 5",
-          "imageurl": "../img/img5.PNG",
+          "url": "img/img_exe5.png",
           "question": "Corrija o trecho de código abaixo para que o state “count” seja atualizado quando o componente montar:",
           "path": "/exe5"
         },
         {
           "id": 5,
           "name": "6",
-          "imageurl": "../img/img6.PNG",
+          "url": "img/img_exe6.png",
           "question": "No trecho de código abaixo, a função asyncFunc é assincrona. O que falta para que este código funcione corretamente?",
           "path": "/exe6"
         },
         {
           "id": 6,
           "name": "7",
-          "imageurl": "../img/img7.PNG",
+          "url": "img/img_exe7.png",
           "question":"Esse componente abaixo gera um erro no console ao renderizar, corrija a implementação para que não gere mais erro:",
           "path": "/exe7"
          }

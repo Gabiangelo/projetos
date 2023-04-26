@@ -1,5 +1,5 @@
 import React from 'react';
-import {useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -14,15 +14,22 @@ import './Carousel.css'
 export default function App() {
 
   const [result, setResult] = useState([]);
-
-  fetch('http://localhost:5000/data', {
-    method: "GET",
-    headers: {
-      'Content-Type': 'application/json'
-    }
-  }).then((resp) => resp.json())
-    .then((data) => { setResult(data)})
-    .catch((err)=> console.log(err))
+  
+  useEffect(() => {
+    fetch("http://localhost:5000/data", {
+      method: "GET",
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
+      .then((resp) => resp.json())
+      .then((data) => {
+        console.log(data)
+        setResult(data)
+      })
+      .catch((err) => console.log(err))
+  }, [])
+  
 
   return (
     <div className="container-carousel">
@@ -34,7 +41,7 @@ export default function App() {
         modules={[Navigation]}
       >
           {result.map((item) => (
-              <SwiperSlide>
+              <SwiperSlide key={item.id}>
                 <Cards
                   id={item.id}
                   name={item.name}
