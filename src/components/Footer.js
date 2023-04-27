@@ -14,9 +14,9 @@ function Footer() {
                     </div>
                     <div className='container-media'>
                         <h4>Media</h4>
-                        <a><FaGithub/></a>
-                        <a><FaDiscord/></a>
-                        <a><FaInstagram/></a>
+                        <a href='https://github.com/' target="_blank" rel="noopener noreferrer"><FaGithub/></a>
+                        <a href='https://discord.com/' target="_blank" rel="noopener noreferrer"><FaDiscord/></a>
+                        <a href='https://www.instagram.com/' target="_blank" rel="noopener noreferrer"><FaInstagram/></a>
                     </div>
                 </div>
                 <div className='container-copy'>

@@ -8,7 +8,7 @@ const Count = () => {
     }, []);
 
     return (
-        <div>
+        <div className='result'>
             {count}
         </div>
     );

@@ -6,9 +6,9 @@ function Navbar() {
         <header>
             <h3>REACT.</h3>
             <nav>
-                <a><span>#</span>home</a>
-                <a><span>#</span>about</a>
-                <a><span>#</span>exercises</a>
+                <a href='#home'><span>#</span>home</a>
+                <a href='#about'><span>#</span>about</a>
+                <a href='#exercise'><span>#</span>exercises</a>
             </nav>
         </header>
       );

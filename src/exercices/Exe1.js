@@ -24,7 +24,7 @@ class Exe1 extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className='result'>
                 <div>
                     <p>name: {this.state.name}</p>
                     <p>lastName: {this.state.lastName}</p>

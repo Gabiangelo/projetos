@@ -11,4 +11,10 @@
   font-family: 'Rubik Mono One', sans-serif;
   font-size: 18px;
   box-shadow: var(--btnlinksh) 7px 7px;
+  transition: 0.3s;
+}
+
+.question-btn:hover {
+  background-color: var(--purple);
+  box-shadow: var(--btnlink) 7px 7px;
 }

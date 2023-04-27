@@ -1,5 +1,5 @@
 import React from 'react';
-import './Cards.css'
+import './Card.css'
 import LinkButton from './LinkButton.js';
 
 function Cards(props) {

@@ -37,6 +37,12 @@
 .container-media a {
     margin: 0;
     margin-right: 15px;
+    text-decoration: none;
+    color: var(--textColor2);
+}
+
+.container-media a:hover {
+    color: var(--btnlink);
 }
 
 .container-media svg {

@@ -20,6 +20,7 @@ header {
     letter-spacing: 3px;
     font-family:'Roboto';
     font-weight: 900;
+    text-decoration: none;
 }
 
 h3 {
@@ -32,11 +33,12 @@ span{
 
 a{
     margin: 0 2rem;
+    color: var(--textColor2);
     text-decoration: none;
 }
 
 nav a:hover{
-    color: var(--textColor2);
+    color: var(--btnlink);
 }
 
 
