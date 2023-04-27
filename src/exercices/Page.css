@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&family=Rubik+Mono+One&display=swap');
 .container-page {
     max-width: 1240px;
-    max-height: 700px;
+    max-height: 100vh;
     margin: auto;
     padding: 30px;
-    margin-top: 30px;
     margin-bottom: 115px;
     box-sizing: border-box;
     display: flex;
@@ -13,9 +12,10 @@
     gap: 50px;
 }
 
+
 .container-solution {
-    width: 600px;
-    height: 600px;
+    width: 50vw ;
+    height: 50vh;
     background-color: #142246;
     border: 3px solid #ffffff;
     border-radius: 20px;
@@ -27,19 +27,6 @@
     display: flex;
     flex-direction: column;
 }
-
-.exe-content {
-    display: flex;
-    height: 300px;
-    justify-content: center;
-}
-
-.result {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
 
 
 .container-solution button{
@@ -59,36 +46,30 @@
 }
 
 .container-question {
-    width: 600px;
-    height: 570px;
+    width: 50vw ;
+    height: 50vh;
     font-family: 'Rubik Mono One', sans-serif;
-    padding: 30px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
-.container-question h1 {
+.container-question h2 {
     font-family: 'Rubik Mono One', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 5px;
     color: #FDCA40;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .container-question p {
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 3px;
     color: var(--textColor2);
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .container-question img{
     border-radius: 20px;
-    width: 90%;
-}
-
-
-h1 svg {
-    font-size: 30px;
-    margin-right: 10px;
+    width: 100%;
 }

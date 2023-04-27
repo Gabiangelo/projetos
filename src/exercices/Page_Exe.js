@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaCode } from 'react-icons/fa';
+
 
 import Exe1 from './Exe1';
 import Exe2 from './Exe2';
@@ -34,15 +34,14 @@ function Page_Exe(props) {
 
   return (
     <div className="container-page">
-      <div className="container-solution">
-        <h2>::Solução</h2>
-        <div className='exe-content'>{exes[props.id]}</div>
+        <div className="container-solution">
+          <h2>::Solução</h2>
+          <div className='exe-content'>{exes[props.id]}</div>
       </div>
       <div className="container-question">
-        <h1>
-          <FaCode />
+        <h2>
           Exercício {result.name}
-        </h1>
+        </h2>
         <p>{result.question}</p>
         <img src={result.url}></img>
       </div>
