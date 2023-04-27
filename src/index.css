@@ -9,6 +9,10 @@
   --badgeColor: #DF2935;
 }
 
+*, html,body {
+  scroll-behavior: smooth !important;
+}
+
 body {
   margin: 0;
   background:var(--bgColor);
