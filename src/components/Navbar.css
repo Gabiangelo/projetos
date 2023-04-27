@@ -39,7 +39,7 @@ a{
 }
 
 nav a:hover{
-    color: var(--btnlink);
+    color: var(--btnlinksh);
 }
 
 

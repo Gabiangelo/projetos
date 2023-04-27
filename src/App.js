@@ -15,9 +15,9 @@ function App() {
     <>
       <Navbar/>
       <Home/>
-      <Divisor name = "about" id='about'/>
+      <Divisor name = "Sobre" id='about'/>
       <Project/>
-      <Divisor name = "exercise" id='exercise'/>
+      <Divisor name = "Exercícios" id='exercise'/>
       <div className='teste'>
         <Teste/>
         <Outlet/>

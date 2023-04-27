@@ -35,15 +35,19 @@ function Page_Exe(props) {
   return (
     <div className="container-page">
         <div className="container-solution">
-          <h2>::Solução</h2>
+          <h2>Solução</h2>
           <div className='exe-content'>{exes[props.id]}</div>
       </div>
       <div className="container-question">
-        <h2>
-          Exercício {result.name}
-        </h2>
-        <p>{result.question}</p>
-        <img src={result.url}></img>
+        <div>
+          <h2>
+            Exercício {result.name}
+          </h2>
+          <p>{result.question}</p>
+        </div>
+        <div className=''>
+          <img src={result.url}></img>
+        </div>
       </div>
     </div>
   );
