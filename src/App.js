@@ -18,8 +18,10 @@ function App() {
       <Divisor name = "about" id='about'/>
       <Project/>
       <Divisor name = "exercise" id='exercise'/>
-      <Teste/>
-      <Outlet/>
+      <div className='teste'>
+        <Teste/>
+        <Outlet/>
+      </div>
       <Footer/>
     </>
   )
