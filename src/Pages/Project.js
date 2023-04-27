@@ -7,7 +7,7 @@ import './Project.css';
 function Project() {
     
     return ( 
-        <div className='container-about' id='about'>
+        <div className='container-about'>
             <div>
                 <h1><span>#</span>Sobre o Projeto</h1>
                 <p>Esta aplicação é uma demonstração do meu aprendizado em React.js, adquirido durante minha trilha de aprendizagem no programa de estágio da Soft Expert. Aqui, apresento a resolução dos exercícios, aplicando os conceitos aprendidos e mostrando minha evolução no desenvolvimento de aplicações com React.</p>

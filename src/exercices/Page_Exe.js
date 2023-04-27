@@ -33,7 +33,7 @@ function Page_Exe(props) {
   }, [props.id])
 
   return (
-    <div className="container-page" id='exercise'>
+    <div className="container-page">
       <div className="container-solution">
         <h2>::Solução</h2>
         <div className='exe-content'>{exes[props.id]}</div>

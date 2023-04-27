@@ -13,7 +13,7 @@ function Home() {
     });
 
     return ( 
-        <div className="container-home" id='home'>
+        <div className="container-home" >
             <div className="text-content">
                 <h1>
                     {text}
