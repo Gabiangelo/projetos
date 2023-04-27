@@ -18,7 +18,7 @@ function Page_Exe(props) {
   const [result, setResult] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/data/${props.id}`, {
+    fetch(`https://json-exe.vercel.app/data/${props.id}`, {
       method: "GET",
       headers: {
         'Content-Type': 'application/json',

@@ -16,7 +16,7 @@ export default function App() {
   const [result, setResult] = useState([]);
   
   useEffect(() => {
-    fetch("http://localhost:5000/data", {
+    fetch("https://json-exe.vercel.app/data", {
       method: "GET",
       headers: {
         'Content-Type': 'application/json',
