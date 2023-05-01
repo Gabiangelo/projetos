@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&family=Rubik+Mono+One&display=swap');
 .container-page {
     max-width: 1240px;
-    max-height: 100vh;
+    height: fit-content;
     margin: auto;
     padding: 30px;
-    margin-bottom: 115px;
+    margin-bottom: 50px;
     box-sizing: border-box;
-    /*display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 10px;*/
     display: flex;
     justify-content: space-between;
     gap: 50px;
@@ -52,7 +49,7 @@
 
 .container-question {
     width: 50vw ;
-    height: 50vh;
+    height: fit-content;
     font-family: 'Rubik Mono One', sans-serif;
     box-sizing: border-box;
 
@@ -77,6 +74,7 @@
 .container-question img{
     border-radius: 20px;
     max-width: 83%;
+    max-height: 48%;
 }
 
 .container-question img:hover{
