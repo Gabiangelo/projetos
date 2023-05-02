@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 import Navbar from './components/Navbar.js';
-import Teste from './components/Carousel.js';
+import Carousel from './components/Carousel.js';
 import Home from './Pages/Home';
 import Divisor from './components/Divisor.js';
 import Footer from './components/Footer';
@@ -19,7 +19,7 @@ function App() {
       <Project/>
       <Divisor name = "Exercícios" id='exercise'/>
       <div className='teste'>
-        <Teste/>
+        <Carousel/>
         <Outlet/>
       </div>
       <Footer/>

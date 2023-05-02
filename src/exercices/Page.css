@@ -40,7 +40,7 @@
     color: var(--textColor2);
     -webkit-text-stroke-color: var(--bgColor);
     -webkit-text-stroke-width: 1px;
-    background-color: #DF2935;
+    background-color: var(--badgeColor);
     margin-top: 20px;
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 18px;
